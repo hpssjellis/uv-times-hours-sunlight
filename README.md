@@ -2,7 +2,7 @@
 Is a cities flu susceptibility correlated with the amount and intensity of sunlight? Could this be useful for the recent covid-19 outbreak. Obviously other factors are involved with the coronavirus spread.
 
 
-Does anyone have any good datasets of UV and Hours of sounlight and covid-19 cases per city?
+Does anyone have any good datasets of UV and Hours of sunlight and covid-19 cases per city?
 
 Here is what I have found so far.
 
