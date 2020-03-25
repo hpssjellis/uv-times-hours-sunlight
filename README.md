@@ -39,13 +39,17 @@ https://www.worldometers.info/coronavirus/
 ## UV index x hours of sunshine per day per city = 
 
 
+
+
+# Milan
+
 https://www.weather-atlas.com/en/italy/milan-climate#uv_index
 
 https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
 
 
 
-Milan 
+
 
 Jan 1x59  =   59
 
@@ -60,11 +64,12 @@ May 7x211 = 1477
 Jun 8x243 = 1944
 
 
+# Tokyo
 
 https://www.weather-atlas.com/en/japan/tokyo-climate#uv_index
 https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
 
-Tokyo
+
 
 Jan 2x184.5   =  369
 
@@ -78,10 +83,14 @@ May 9x198.4   = 1786
 
 June 10x125.4 = 1254
 
+
+# Tehran
+
+
 https://www.weather-atlas.com/en/iran/tehran-climate#uv_index
 https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
 
-Tehran
+
 
 Jan 3x137   =  411
 
@@ -97,9 +106,13 @@ June 12x329 = 3948
 
 
 
+
+
+# Vancouver
+
 https://www.weather-ca.com/en/canada/vancouver-climate#uv_index
 
-Vancouver
+
 
 Jan 1x60  = 60
 
