@@ -13,6 +13,15 @@ I have too much time on my hands so I have been really pondering why the typical
 UV light is just intensity and does not make any sense for flu reduction with people inside buildings, herd immunity probably is more important inside, but for outside flu contamination it does make some sense. However intensity alone is probably not as important as intensity x amount of sunshine. Looking at global data that metric starts making more sense.
 
 
+
+https://www.webmd.com/cold-and-flu/news/20180212/can-uv-light-be-used-to-kill-airborne-flu-virus-#1 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6466003/
+
+https://www.sciencedaily.com/releases/2018/02/180209100701.htm
+ 
+ 
+
 coronavirus kaggle dataset updated often
 
 https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
