@@ -130,9 +130,9 @@ Jun 6x227 = 1362
 
 
 
+# Possible analysis
 
-
-CovidFactor is the monthly unknown = bad luck, cultural issues (Iran:Kissing statues, Italy:close contact ) cultural positives (Japan bowing, masks when sick), prevention (Social distancing)
+CovidFactor is the monthly unknown = bad luck, cultural issues (Iran:Kissing statues, Italy:close contact ) cultural positives (Japan bowing, masks when sick), prevention (Social distancing, handwashing)
 
 UV = months average UV index
 HSL = average hours of sunlight per month 
