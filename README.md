@@ -4,7 +4,9 @@ Is a cities flu susceptibility correlated with the amount and intensity of sunli
 
 Does anyone have any good datasets of UV and Hours of sounlight and covid-19 cases per city?
 
-Here is what I have found so far
+Here is what I have found so far.
+
+![flu-season.png](flu-season.png)
 
 I have too much time on my hands so I have been really pondering why the typical flu fades around March-April each year and a few web pages have mentioned that UV light has something to do with it. 
 
