@@ -93,10 +93,33 @@ May 9x198.4   = 1786
 June 10x125.4 = 1254
 
 
+# New York
+
+https://www.weather-us.com/en/new-york-usa/new-york-climate#uv_index
+
+https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
+
+Jan 2x163 =  326
+
+Feb 3x163 =  489
+
+Mar 4x213 =  852
+
+Apr 6x226 =  1356
+
+May 7x257 =  1799
+
+Jun 8x257 =  2056
+
+
+
+
+
 # Tehran
 
 
 https://www.weather-atlas.com/en/iran/tehran-climate#uv_index
+
 https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
 
 
@@ -121,7 +144,7 @@ June 12x329 = 3948
 
 https://www.weather-ca.com/en/canada/vancouver-climate#uv_index
 
-
+https://en.wikipedia.org/wiki/List_of_cities_by_sunshine_duration
 
 Jan 1x60  = 60
 
