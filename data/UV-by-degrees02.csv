@@ -1,0 +1,28 @@
+﻿City,Degrees,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+Russia (St Petersburg),n60°N,0,0,1,3,4,5,5,4,2,1,0,0
+Germany (Berlin),n52°N,1,1,2,4,5,7,7,5,3,1,1,0
+Canada (Vancouver),n49°N,1,1,3,4,6,7,7,6,4,2,1,1
+France (Paris),n49°N,1,1,3,4,6,7,7,6,4,2,1,0
+Mongolia (Ulan Bator),n48°N,1,2,3,5,6,7,8,6,4,2,1,1
+USA (New York),n41°N,2,3,4,6,7,8,9,8,6,3,2,1
+Spain (Palma de Mallorca),n39°N,2,3,4,6,8,9,9,8,6,4,2,1
+Japan (TokYo),n36°N,2,4,5,8,9,9,10,9,7,4,2,2
+Greece (Iraklion),n35°N,3,4,5,8,9,9,10,9,7,4,3,2
+USA (Los Angeles),n34°N,3,4,6,8,9,10,10,9,7,5,3,2
+Cuba (Havana),n23°N,6,8,9,10,10,11,12,11,10,8,6,5
+Vietnam (Hanoi),n21°N,6,8,10,11,11,11,12,12,10,8,6,6
+Thailand (Bangkok),n14°N,8,10,12,12,11,12,12,12,11,10,8,8
+Sri Lanka (Colombo),n13°N,8,10,12,12,11,11,12,12,12,10,8,8
+Panama (Panama),n09°N,9,11,12,12,11,11,12,12,12,11,9,9
+Singapore (Singapore),n01°N,11,12,13,13,11,11,11,11,12,12,11,10
+Kenya (Nairobi),s01°S,12,13,13,12,11,10,11,11,12,12,12,11
+Australia (Darwin),s13°S,12,13,12,10,8,8,8,10,11,13,12,12
+Madagascar (Tananarive),s19°S,12,12,11,9,7,6,6,8,11,11,12,12
+Brazil (Rio de Janeiro),s23°S,12,11,9,7,5,5,5,7,9,10,12,12
+Mozambique (Maputo),s26°S,11,11,9,7,5,4,4,6,8,10,11,11
+Australia (Sydney),s34°S,9,9,7,5,3,2,3,4,6,7,9,10
+South Africa (Cape Town),s34°S,9,9,7,5,3,2,3,4,6,7,9,10
+Argentine (Buenos Aires),s35°S ,9,9,7,4,3,2,2,4,5,7,9,10
+Australia (Melbourne),s37°S,8,8,6,4,2,2,2,3,5,6,8,9
+New Zealand (Wellington),s42°S,7,7,5,3,1,1,1,2,4,6,7,8
+Falkland-Islands (Port Stanley),s58°S,5,4,2,1,0,0,0,1,2,3,5,5
