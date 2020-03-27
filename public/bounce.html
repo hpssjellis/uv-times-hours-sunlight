@@ -65,8 +65,11 @@
             if (d.color == 'blue' || target.color == 'blue'){
 
             // d3node.select("circle").style("fill","red");
-              d.style("fill","red");
-
+            //  d.style("fill","red");
+    var circle = svg.selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", d => 6).style('fill',d => 'blue');
 
             }   
             target.speed = dCurr.speed;
