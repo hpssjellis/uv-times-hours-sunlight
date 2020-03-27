@@ -67,9 +67,9 @@
             // d3node.select("circle").style("fill","red");
             //  d.style("fill","red");
     var circle = svg.selectAll("circle")
-        .data(data)
+        .data(d)
       .enter().append("circle")
-        .attr("r", d => 6).style('fill',d => 'blue');
+        .attr().style('fill',d => 'blue');
 
             }   
             target.speed = dCurr.speed;
