@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+    }
+    circle {
+      fill: steelblue;
+      stroke: white;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://d3js.org/d3.v5.js"></script>
+  <script src="https://unpkg.com/geometric@1.0.6/build/geometric.min.js"></script>
+  <script>
+    var width = window.innerWidth, height = window.innerHeight;
+
+    var data = [];
+    var point_count = 50;
+    var svg = d3.select("body").append("svg");
+    for (var i = 0; i < point_count; i++){
+      var obj = {
+        radius: 10,
+        angle: d3.randomUniform(0, 3600)() / 10,
+        speed: d3.randomUniform(1, 5)(),
+        color: 'green',
+      }
+      obj.pos = [
+        d3.randomUniform(obj.radius, width - obj.radius)(),
+        d3.randomUniform(obj.radius, height - obj.radius)()
+      ];
+      if (i == 4){ obj.color = 'blue'}
+      data.push(obj);
+    }
+
+    var circle = svg.selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", d => d.radius).style('fill',d => d.color);
+
+    d3.timer(_ => { redraw(update(data)); });
+
+    function redraw(data){
+      width = window.innerWidth;
+      height = window.innerHeight;
+      svg.attr("width", width).attr("height", height);
+      
+      circle.attr("transform", d => "translate(" + d.pos + ")");
+    }
+
+    function update(data){
+      data.forEach((d, i) => {  
+        // Detect collisions      
+        for (var i0 = 0, l = data.length; i0 < l; i0++){
+          var target = data[i0];
+          if (i !== i0 && geometric.lineLength([d.pos, target.pos]) < d.radius + target.radius){
+            
+            var dCurr = JSON.parse(JSON.stringify(d));
+
+            d.angle = target.angle;
+            d.speed = target.speed;
+            if (d.color == 'blue' || target.color == 'blue'){
+
+            // d3node.select("circle").style("fill","red");
+              d.style("fill","red");
+
+
+            }   
+            target.speed = dCurr.speed;
+            target.angle = dCurr.angle;
+
+          }
+        }
+
+        // Detect horizontal walls
+        if (d.pos[0] <= d.radius || d.pos[0] >= width - d.radius){
+          d.angle = geometric.angleReflect(d.angle, 90);
+        }
+
+        // Detect vertical walls
+        if (d.pos[1] <= d.radius || d.pos[1] >= height - d.radius){
+          d.angle = geometric.angleReflect(d.angle, 0);
+        }
+
+        // Translate the point
+        d.pos = geometric.pointTranslate(d.pos, d.angle, d.speed);
+      // d.style('fill','red');
+      });
+      return data;
+    }
+  </script>
+</body>
+</html>
