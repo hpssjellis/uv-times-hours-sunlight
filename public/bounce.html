@@ -69,8 +69,9 @@
               
           //  console.log('data')  
           //  console.log(data)  
-    var circle2 = svg.selectAll("circle").data(data).enter().append("circle").attr("r", d => d.radius).style('fill',d => d.color);
-     redraw(update(data));
+                    data.push(d);
+   // var circle2 = svg.selectAll("circle").data(data).enter().append("circle").attr("r", d => d.radius).style('fill',d => d.color);
+   //  redraw(update(data));
             }   
             target.speed = dCurr.speed;
             target.angle = dCurr.angle;
