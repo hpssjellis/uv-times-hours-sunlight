@@ -199,3 +199,6 @@ End of quotes:
 If just breathing releases very small particles of a virus that might help explain why the flu is in part reduced as the UV index increases. these very small particles might be dried out and destroyed faster with increased UV radiation?
 
 Large particles spread by a cough or sneeze could still infect people not wearing masks and social distancing.
+
+
+Disclaimer: Use this information at your own risk.
